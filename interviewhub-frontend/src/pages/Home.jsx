@@ -15,7 +15,7 @@ function Home() {
       try {
 
         const response = await axios.get(
-          "http://localhost:3000/api/experience/all"
+          "https://interviewhub-im7b.onrender.com/api/experience/all"
         );
 
         setExperiences(response.data.data);

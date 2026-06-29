@@ -13,7 +13,7 @@ function Register() {
   const handleRegister = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/register",
+        "https://interviewhub-im7b.onrender.com/api/auth/register",
         {
           name,
           email,

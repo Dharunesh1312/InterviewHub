@@ -13,7 +13,7 @@ function SingleExperience() {
     const fetchExperience = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/experience/${id}`
+          `https://interviewhub-im7b.onrender.com/api/experience/${id}`
         );
 
         setExperience(response.data.data);
