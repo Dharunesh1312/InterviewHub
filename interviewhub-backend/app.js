@@ -15,7 +15,10 @@ connectDb();
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: [
+        "http://localhost:5173",
+        "https://interview-hub-eight-phi.vercel.app"
+    ],
     credentials: true
 }));
 app.use(express.json());
