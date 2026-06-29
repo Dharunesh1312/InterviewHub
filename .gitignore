@@ -1,0 +1,10 @@
+# Frontend
+interviewhub-frontend/node_modules
+interviewhub-frontend/dist
+
+# Backend
+interviewhub-backend/node_modules
+interviewhub-backend/.env
+
+# General
+.DS_Store
