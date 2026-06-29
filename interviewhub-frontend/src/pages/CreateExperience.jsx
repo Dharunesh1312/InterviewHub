@@ -37,8 +37,12 @@ function CreateExperience() {
       navigate("/"); //home page going
 
     } catch (error) {
-      console.log(error);
-    }
+  console.log(error);
+  console.log(error.response);
+  console.log(error.response?.data);
+
+  alert(error.response?.data?.message || error.message);
+}
   };
 
   return (
